@@ -14,7 +14,6 @@ A deep learning API for detecting plant leaf diseases using a ResNet18 model tra
   - Augmented with rotation, color jitter, flips
   - Normalized using ImageNet mean & std
 
-> ✅ Real-world noisy data — imbalanced, varied lighting, backgrounds — not synthetic or curated.
 
 ---
 
@@ -41,14 +40,3 @@ A deep learning API for detecting plant leaf diseases using a ResNet18 model tra
 - ✅ *FastAPI*-based Inference API
 
 ---
-
-## ⚙ Folder Structure
-
-```bash
-.
-├── app.py                     # FastAPI app
-├── model.py                   # TorchScript model loading
-├── crophealthnet_scripted.pt # Traced TorchScript model
-├── gradcam_utils.py           # Grad-CAM logic
-├── sample_leaf.jpg            # Example input image
-├── README.md
